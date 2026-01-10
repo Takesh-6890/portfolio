@@ -89,7 +89,13 @@ cards.forEach(card => {
 });
 
 const typingElement = document.querySelector('.info-home h3');
-const words = ["Full Stack Developer (MERN)", ".NET", "Python Developer", "Gen AI"];
+const words = [
+  ".NET Core Backend Developer",
+  "ASP.NET Core API Engineer",
+  "DevOps & CI/CD Engineer",
+  "SQL & Database "
+];
+
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
